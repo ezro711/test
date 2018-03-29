@@ -22,22 +22,6 @@ $x = $_GET['a'];
 $y = $_GET['b'];
 
 $z = $x+$y;
-$w = $x-$y;
-$q = $x*$y;
-$a = $x/$y;
 
-if ($x+$y){
-	echo $z;
-}
-if ($x-$y){
-	echo $w;
-}
-if ($x*$y){
-	echo $q;
-}
-if ($x/$y){
-	echo $a;
-}
-
-
+echo $z;
 
